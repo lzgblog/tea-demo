@@ -6,6 +6,13 @@ const teaart2 = require('tea-classification-description');
 const teaart3 = require('tea-introduce');
 const teaart4 = require('check-ip-util');
 const teaart5 = require('substring-by-length');
+const teaart6 = require('graph-tea');
+const teaart7 = require('format-username');
+const teaart8 = require('color-conversion-test');
+
+const teaart9 = require('tea-test-one');
+const teaart10 = require('tea-test-two');
+
 
 function printTea() {
 	figlet('Tea Time!', function(err, data) {
